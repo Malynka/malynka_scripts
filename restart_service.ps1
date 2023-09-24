@@ -1,0 +1,1 @@
+Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"nssm restart malynka-server`"" -Verb RunAs -Wait -WindowStyle Hidden
